@@ -58,7 +58,7 @@ h1 {
 	text-align: center;
 	color: antiquewhite;
 	font-size: 6em;
-	margin-top: 110px
+	margin-top: 100px
 	text-shadow: 1px 3px 2px black;
 }
 #premierTrait {
@@ -76,7 +76,7 @@ h3 {
 	text-shadow: 1px 3px 2px black;
 }
 /************************************PRESENTATION********************************/
-#présentation {
+#presentation {
 	background-color: #FFFAE1;
 	padding: 10px 0px 100px 0px;
 
@@ -84,25 +84,37 @@ h3 {
 #texteIntro {
 	padding: 0px 20px;
 }
-#préstations {
+#prestations {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 30px 10px;
 }
-.imagesPréstation h4 {
+.imagesPrestation h4 {
 	font-family: 'Dancing Script' cursive;
 	text-align: center;
 	font-size: 1.8em;
 	margin: 15px;
 	font-weight: 300;
 }
-.imagesPréstation img {
-	border-radius: 50%;
+.imagesPrestation img {
+	border-radius: 10px;
 	box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7); 
 }
-.imagesPréstation img:hover {
+.imagesPrestation img:hover {
 	opacity: 0.5;
 	transform: scale(1.05);
 	transition: 0.8s ease-in-out;
+}
+/************************************TOURISME*****************************************/
+#tourisme {
+	height: 1400px;
+	background-color: #f1f2f6;
+	padding: 1px 2%;
+}
+#tourisme h2 {
+	padding-top: 60px;
+}
+#océan {
+	background: url(./océan.jpg);
 }
