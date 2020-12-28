@@ -118,3 +118,39 @@ h3 {
 #océan {
 	background: url(./océan.jpg);
 }
+#chateau {
+	background: url(./medoc.jpg);
+}
+#phare {
+	background: url(./estuaire.jpg);
+}
+#vignoble {
+	background: url(./vignoble.jpg);
+}
+#tourisme li {
+	margin: 65px 100px 0 100px;
+	height: 226px;
+	width: 55%;
+	max-width: 550px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme p {
+	height: 45px;
+	width: 235px;
+	border-color: #01DF74;
+	float: right;
+	margin: 50px -180px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+#tourisme #chateau, #tourisme #vignoble {
+	float: right;
+}
+#chateau p, #vignoble p {
+	float: left;
+	background-color: cyan;
+	margin-left: -180px;
+}
